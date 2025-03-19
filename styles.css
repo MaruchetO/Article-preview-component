@@ -101,6 +101,7 @@ body {
 
 .js-popup-container {
   display: none; 
+  /* Modal - https://www.w3schools.com/howto/howto_css_modals.asp */
   /* position: fixed;
   z-index: 1; 
   padding-top: 100px;
@@ -132,11 +133,10 @@ body {
   left: 0px; */
   white-space: nowrap;
   pointer-events: none;
-  transition: opacity 0.15s;
   z-index: 50;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
 }
-/* Popup arrow */
+/* Popup arrow - https://www.w3schools.com/howto/howto_js_popup.asp */
 .share-popup::after {
   content: " ";
   position: absolute;
@@ -232,7 +232,6 @@ body {
     left: -263px;
     white-space: nowrap;
     pointer-events: none;
-    transition: opacity 0.15s;
     z-index: 50;
   }
   .share-popup::after {
